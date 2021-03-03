@@ -17,7 +17,7 @@ def main():
     elif(points<=100):
       print("Grade: 5")
     elif(points>100):
-      print("incredible")
+      print("Grade: incredible")
 
 if __name__ == '__main__':
     main()
