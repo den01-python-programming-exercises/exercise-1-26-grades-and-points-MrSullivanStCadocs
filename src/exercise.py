@@ -3,19 +3,19 @@ def main():
     points = int(input("Give points [0-100]:"))
 
     if(points<0):
-      print("impossible!")
+      print("Grade: impossible!")
     elif(points<=49):
-      print("failed")
+      print("Grade: failed")
     elif(points<=59):
-      print("1")
+      print("Grade: 1")
     elif(points<=69):
-      print("2")
+      print("Grade: 2")
     elif(points<=79):
-      print("3")
+      print("Grade: 3")
     elif(points<=89):
-      print("4")
+      print("Grade: 4")
     elif(points<=100):
-      print("5")
+      print("Grade: 5")
     elif(points>100):
       print("incredible")
 
